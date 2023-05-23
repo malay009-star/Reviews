@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+// utilities
+// variables
+@import "utilities/variables";
+// base
+@import "base/global";
+@import "base/typography";
+//utilities
+@import "utilities/helpers";
+// Layout
+@import "layout/reviews";

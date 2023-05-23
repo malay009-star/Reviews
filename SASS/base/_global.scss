@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+*,
+::after,
+::before {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Poppins, sans-serif;
+    color: #102A42;
+}
+
+@mixin sm-laptop {
+    @media (max-width: 1023px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: 800px) {
+        @content;
+    }
+}
+
+@mixin sm-tablet {
+    @media (max-width: 750px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin sm-mobile {
+    @media (max-width: 425px) {
+        @content;
+    }
+}
+
+@mixin xs-mobile {
+    @media (max-width: 380px) {
+        @content;
+    }
+}

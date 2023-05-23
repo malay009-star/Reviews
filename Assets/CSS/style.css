@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+*,
+::after,
+::before {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Poppins, sans-serif;
+  color: #102A42;
+}
+
+.heading {
+  font-size: 2.6rem;
+}
+
+#profileContainer {
+  width: 624px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 1.3rem;
+}
+.profile img {
+  width: 130px;
+  height: 130px;
+  border-radius: 4rem;
+  margin-left: 39%;
+}
+
+i {
+  font-size: 1.8rem;
+  color: #7cacca;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+#add {
+  margin-left: 4rem;
+}
+
+.profile {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  #profileContainer {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .heading {
+    font-size: 2rem;
+  }
+  #profileContainer {
+    width: 400px;
+  }
+  .profile {
+    padding: 1rem;
+  }
+  .profile img {
+    width: 100px;
+    height: 100px;
+    margin-left: 39%;
+  }
+  #add {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 425px) {
+  #profileContainer {
+    width: 350px;
+  }
+  .profile {
+    padding: 1rem;
+  }
+  .profile img {
+    margin-left: 30%;
+  }
+  #add {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 380px) {
+  .heading {
+    font-size: 1.8rem;
+  }
+  #profileContainer {
+    width: 320px;
+  }
+  .profile p {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
